@@ -94,14 +94,14 @@ analytics:
 # Site Author
 author:
   name             : "Takyoung Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/moja.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hello World!"
   location         : "South Korea"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "takyoung_kim@korea.ac.kr"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "takyoung_kim@korea.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://youngerous.github.io/"
