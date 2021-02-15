@@ -176,15 +176,15 @@ $${ f(x)=
 
 $${ F(a) = \int_{-\infty}^{a} f(x) \, dx  \;\; , \text{X is uniform on } (\alpha, \beta)  }$$
 
-**① $ a \le \alpha $** <br>
+① $ a \le \alpha $ <br>
 
 $${ F(a) = 0 }$$
 
-**② $ \alpha < a < \beta $** <br>
+② $ \alpha < a < \beta $ <br>
 
 $${ F(a) = {a-\alpha \over \beta - \alpha} }$$
 
-**① $ \beta \le a $** <br>
+③ $ \beta \le a $ <br>
 
 $${ F(a) = 1 }$$
 
