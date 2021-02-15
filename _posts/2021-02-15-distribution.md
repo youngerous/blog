@@ -12,9 +12,7 @@ use_math: true
 
 # Overview
 
-<img src="../assets/figures/distribution.png" width="80%">
-
-<!-- ![]({{ site.url }}{{ site.baseurl }}/ass) -->
+<img src="\assets\figures\distribution.png" width="80%">
 
 
 자세한 수식 전개는 생략하고 기본적인 개념과 분포 간 관계에 대해 살펴본다.
