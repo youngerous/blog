@@ -12,7 +12,7 @@ use_math: true
 
 # Overview
 
-<img src="/assets/figures/distribution.png" width="80%">
+<img src="assets/figures/distribution.png" width="80%">
 
 자세한 수식 전개는 생략하고 기본적인 개념과 분포 간 관계에 대해 살펴본다.
 
@@ -54,7 +54,7 @@ $${  E[X] = np }$$
 $${ V[X]=np(1-p)}$$
 
 ## 1-3. 포아송분포
-<img src="/assets/figures/poisson.jpeg" width="80%">
+<img src="assets/figures/poisson.jpeg" width="80%">
 
 
 **단위 시간 내에 특정 사건이 몇 번 발생**할 것인지를 설명하는 확률분포이다.
@@ -76,7 +76,7 @@ $${V[X]=\lambda }$$
 
 ## 1-4. 기하분포
 
-<img src="/assets/figures/geometric.png" width="80%">
+<img src="assets/figures/geometric.png" width="80%">
 
 
 베르누이 시행에서 **첫 번째 성공**이 발생할 때까지 필요한 시행 횟수를 설명하는 확률분포이다. $n-1$번의 실패 후 성공하는 상황을 확률질량함수로 표현할 수 있다.
@@ -95,7 +95,7 @@ $${V[X] = {1-p \over p^2} }$$
 
 ## 1-5. 음이항분포
 
-<img src="/assets/figures/negbinomial.jpeg" width="80%">
+<img src="assets/figures/negbinomial.jpeg" width="80%">
 
 
 기하분포의 일반화된 형태로서, 베르누이 시행에서 **$r$번째 성공**이 일어날 때까지 필요한 시행 횟수를 설명하는 확률분포이다.
@@ -121,7 +121,7 @@ $${ V[X] = {r(1-p) \over p^2} }$$
 
 ## 1-6. 초기하분포
 
-<img src="/assets/figures/hypergeometric.jpeg" width="80%">
+<img src="assets/figures/hypergeometric.jpeg" width="80%">
 
 
 $N$개의 공 가운데 $m$개가 하얀색이고 $N-m$개가 빨간색인 경우, **비복원추출**로 $n$개의 공을 뽑을 때 $i$개가 하얀색인 확률분포를 나타낸다. 불량품 검출 상황에서도 자주 사용된다.
@@ -148,7 +148,7 @@ $${ V[X] = np(1-p)\left( 1- {n-1 \over N-1} \right)}, \;\; where \; p = {m \over
 
 ### PDF
 
-<img src="/assets/figures/uniformpdf.jpeg" width="80%">
+<img src="assets/figures/uniformpdf.jpeg" width="80%">
 
 
 $${ f(x)=
@@ -160,7 +160,7 @@ $${ f(x)=
 
 ### CDF
 
-<img src="/assets/figures/uniformcdf.jpeg" width="80%">
+<img src="assets/figures/uniformcdf.jpeg" width="80%">
 
 $${ F(a) = \int_{-\infty}^{a} f(x) \, dx  \;\; , \text{X is uniform on } (\alpha, \beta)  }$$
 
@@ -187,7 +187,7 @@ $${ V[X] = {(\beta - \alpha)^2 \over 12} }$$
 
 ## 2-2. 정규분포
 
-<img src="/assets/figures/normal.jpeg" width="80%">
+<img src="assets/figures/normal.jpeg" width="80%">
 
 
 평균을 기준으로 대칭 형태이며, unimodal인 경우 평균에서 가장 높은 확률을 갖는다.
@@ -219,14 +219,14 @@ $$ V[X] = \sigma^2 $$
 
 조건을 만족한다면 아래와 같이 표현할 수 있다.
 
-<img src="/assets/figures/normalapprox.jpeg" width="80%">
+<img src="assets/figures/normalapprox.jpeg" width="80%">
 
 
 $${ X\sim Binomial(n,p) \approx Y\sim Normal(np, np(1-p)) }$$
 
 ## 2-3. 지수분포
 
-<img src="/assets/figures/exp.png" width="80%">
+<img src="assets/figures/exp.png" width="80%">
 
 
 포아송분포가 단위시간동안 어떤 사건이 발생한 횟수에 대한 확률분포라면, 지수분포는 **포아송분포에서 발생하는 사건 사이의 시간**에 대한 확률분포이다. 따라서 어떤 사건이 포아송분포에서 발생했다면 사건 사이의 시간은 지수분포를 따를 것이고, 사건 사이의 시간이 지수분포를 따른다면 사건 발생 횟수는 포아송분포를 따를 것이다.
@@ -266,7 +266,7 @@ $${ V[X] = {1 \over \lambda^2} }$$
 
 ## 2-4. 감마분포
 
-<img src="/assets/figures/gamma.png" width="80%">
+<img src="assets/figures/gamma.png" width="80%">
 
 
 지수분포의 일반화된 형태이다. 즉 $\alpha$개의 사건이 발생할 때까지의 시간을 다루는 확률분포이다. 
@@ -298,7 +298,7 @@ $X_1, \cdots, X_\alpha \sim_{iid} Exponential(\lambda) $ 일 경우, $X_1, \cdot
 
 ## 2-5. 베타분포
 
-<img src="/assets/figures/beta.png" width="80%">
+<img src="assets/figures/beta.png" width="80%">
 
 
 비율을 설명할 때 사용하는 확률분포이다.
@@ -326,7 +326,7 @@ $${ V[X] = {\alpha \beta \over (\alpha + \beta)^2 (\alpha + \beta + 1)} }$$
 
 # 요약: 확률분포 간 관계
 
-<img src="/assets/figures/distribution.png" width="80%">
+<img src="assets/figures/distribution.png" width="80%">
 
 
 **베르누이분포**를 독립적으로 $n$번 수행하면 **이항분포**를 따른다. 이항분포는 샘플이 충분히 많고 성공 확률이 0 또는 1에 너무 가깝지 않다는 조건 하에서 **정규분포**로 근사할 수 있다.
