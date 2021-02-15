@@ -12,7 +12,7 @@ use_math: true
 
 # Overview
 
-<img src="/assets/figures/distribution.png" width="80%">
+<img src="/assets/figures/distribution.png" width="80%"></img>
 
 
 자세한 수식 전개는 생략하고 기본적인 개념과 분포 간 관계에 대해 살펴본다.
@@ -234,6 +234,7 @@ $${ X\sim Binomial(n,p) \approx Y\sim Normal(np, np(1-p)) }$$
 
 
 ### PDF
+
 $${f(x)=
 \begin{cases}
 \lambda e^{-\lambda x}, & \text{if } x\ge 0 \\
@@ -242,6 +243,7 @@ $${f(x)=
 }$$
 
 ### CDF
+
 $${F(x))=
 \begin{cases}
 0, & \text{if } x<0 \\
@@ -253,6 +255,7 @@ $${F(x))=
 - $\lambda$: 단위 시간 당 발생하는 사건의 평균 횟수
 
 ### 기댓값
+
 $${ E[X] = {1 \over \lambda} }$$
 
 ### 분산
