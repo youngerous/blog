@@ -12,9 +12,8 @@ use_math: true
 
 # Overview
 
-<img src="./assets/figures/distribution.png" width="80%">
+<img src="/assets/figures/distribution.png" width="80%">
 
-![overview](./assets/figures/distribution.png)
 
 자세한 수식 전개는 생략하고 기본적인 개념과 분포 간 관계에 대해 살펴본다.
 
@@ -194,7 +193,7 @@ $${ V[X] = {(\beta - \alpha)^2 \over 12} }$$
 
 평균을 기준으로 대칭 형태이며, unimodal인 경우 평균에서 가장 높은 확률을 갖는다.
 
-$${ f(x; \mu, \sigma) = {1 \over \sigma \sqrt{2\pi}} e^{{-{1 \over 2}} \left( {x - \mu} \over \sigma \right)^2} }$$
+$${ f(x; \mu, \sigma) = {1 \over \sigma \sqrt{2 \pi} } e^{-{1 \over 2} \left( {x - \mu} \over \sigma \right)^2} }$$
 
 $${ -\infty < x < \infty }$$
 
