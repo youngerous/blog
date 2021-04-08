@@ -27,14 +27,14 @@ $$ f_x(x;p) = p^x(1-p)^{1-x} $$
 
 $$ x=0 \; or \; 1 $$
 
-### 파라미터
+**파라미터** <br/>
 - $p$: 성공 확률
 
-### 기댓값
+**기댓값** <br/>
 
 $$ E[x] = \sum_{x=0,1} x\cdot p^x (1-p)^{1-x} = 0+p=p $$
 
-### 분산
+**분산** <br/>
 
 $$ V[x] = E[X^2]-\{E[X]\}^2 = p(1-p)$$
 
@@ -46,15 +46,15 @@ $${ p(x) = {n \choose x} p^x (1-p)^{1-x} }$$
 
 $${for \; x=0,1,\cdots,n }$$
 
-### 파라미터
+**파라미터** <br/>
 - $n$: 베르누이 시행 횟수
 - $p$: 성공 확률
 
-### 기댓값
+**기댓값** <br/>
 
 $${  E[X] = np }$$
 
-### 분산
+**분산** <br/>
 
 $${ V[X]=np(1-p)}$$
 
@@ -70,14 +70,14 @@ $${ i=0,1,2,\cdots }$$
 
 이항분포에서 $n$이 매우 크고 $p$가 충분히 작다면 포아송분포로 근사할 수 있다.
 
-### 파라미터
+**파라미터** <br/>
 - $\lambda$: 단위 시간 당 사건 발생 횟수
 
-### 기댓값
+**기댓값** <br/>
 
 $${E[X]=\lambda }$$
 
-### 분산
+**분산** <br/>
 
 $${V[X]=\lambda }$$
 
@@ -90,15 +90,15 @@ $${V[X]=\lambda }$$
 
 $${ \sum_{n=1}^{\infty} P\{X=n\} = p \sum_{n=1}^\infty (1-p)^{n-1} = {p \over 1-(1-p)}=1 }$$
 
-### 파라미터
+**파라미터** <br/>
 - $p$: 성공 확률
 
 
-### 기댓값
+**기댓값** <br/>
 
 $${E[X] = {1\over p} }$$
 
-### 분산
+**분산** <br/>
 
 $${V[X] = {1-p \over p^2} }$$
 
@@ -118,15 +118,15 @@ $${ n=r, r+1, \cdots}$$
 
 $r=1$이면 기하분포와 같은 형태이다.
 
-### 파라미터
+**파라미터** <br/>
 - $r$: 성공 횟수
 - $p$: 성공 확률
 
-### 기댓값
+**기댓값** <br/>
 
 $${ E[X] = {r \over p} }$$
 
-### 분산
+**분산** <br/>
 
 $${ V[X] = {r(1-p) \over p^2} }$$
 
@@ -141,16 +141,16 @@ $${ P\{X=i\} = { {m \choose i} {N-m \choose n-i} \over {N \choose n}} }$$
 
 $${ i=0,1,\cdots,n }$$
 
-### 파라미터
+**파라미터** <br/>
 - $N$: 대상의 전체 개수
 - $m$: 특정 상태를 갖는 대상의 개수
 - $n$: 비복원추출 개수
 
-### 기댓값
+**기댓값** <br/>
 
 $${ E[X] = {nm \over N}  \left[ {(n-1)(m-1) \over N-1} + 1 \right] }$$
 
-### 분산
+**분산** <br/>
 
 $${ V[X] = np(1-p)\left( 1- {n-1 \over N-1} \right)}, \;\; where \; p = {m \over N} $$
 
@@ -158,7 +158,7 @@ $${ V[X] = np(1-p)\left( 1- {n-1 \over N-1} \right)}, \;\; where \; p = {m \over
 
 ## 2-1. 일양(Uniform)분포
 
-### PDF
+**PDF** <br/>
 
 <img src="/note/assets/figures/uniformpdf.jpeg" width="80%">
 
@@ -170,7 +170,7 @@ $${ f(x)=
 \end{cases} 
 }$$
 
-### CDF
+**CDF** <br/>
 
 <img src="/note/assets/figures/uniformcdf.jpeg" width="80%">
 
@@ -189,11 +189,11 @@ $${ F(a) = {a-\alpha \over \beta - \alpha} }$$
 $${ F(a) = 1 }$$
 
 
-### 기댓값
+**기댓값** <br/>
 
 $${ E[X] = {\beta + \alpha \over 2} }$$
 
-### 분산
+**분산** <br/>
 
 $${ V[X] = {(\beta - \alpha)^2 \over 12} }$$
 
@@ -208,15 +208,15 @@ $${ f(x; \mu, \sigma) = {1 \over \sigma \sqrt{2 \pi} } e^{-{1 \over 2} \left( {x
 
 $${ -\infty < x < \infty }$$
 
-### 파라미터
+**파라미터** <br/>
 - $\mu$: 평균
 - $\sigma$: 표준편차
 
-### 기댓값
+**기댓값** <br/>
 
 $$ E[X] = \mu $$
 
-### 분산
+**분산** <br/>
 
 $$ V[X] = \sigma^2 $$
 
@@ -244,7 +244,7 @@ $${ X\sim Binomial(n,p) \approx Y\sim Normal(np, np(1-p)) }$$
 포아송분포가 단위시간동안 어떤 사건이 발생한 횟수에 대한 확률분포라면, 지수분포는 **포아송분포에서 발생하는 사건 사이의 시간**에 대한 확률분포이다. 따라서 어떤 사건이 포아송분포에서 발생했다면 사건 사이의 시간은 지수분포를 따를 것이고, 사건 사이의 시간이 지수분포를 따른다면 사건 발생 횟수는 포아송분포를 따를 것이다.
 
 
-### PDF
+**PDF** <br/>
 
 $${f(x)=
 \begin{cases}
@@ -253,7 +253,7 @@ $${f(x)=
 \end{cases}
 }$$
 
-### CDF
+**CDF** <br/>
 
 $${F(x))=
 \begin{cases}
@@ -262,14 +262,14 @@ $${F(x))=
 \end{cases}
 }$$
 
-### 파라미터
+**파라미터** <br/>
 - $\lambda$: 단위 시간 당 발생하는 사건의 평균 횟수
 
-### 기댓값
+**기댓값** <br/>
 
 $${ E[X] = {1 \over \lambda} }$$
 
-### 분산
+**분산** <br/>
 
 $${ V[X] = {1 \over \lambda^2} }$$
 
@@ -296,15 +296,15 @@ $${f(x)=
 
 $${ \Gamma{(\alpha)} = \int_{0}^{\infty} x^{\alpha-1}e^x \, dx }$$
 
-### 파라미터
+**파라미터** <br/>
 - $\alpha$: 사건 발생 횟수 (shape parameter)
 - $\lambda$: 단위시간 당 발생하는 사건의 평균 횟수 (rate parameter)
 
-### 기댓값
+**기댓값** <br/>
 
 $${ E[X] = {\alpha \over \lambda} }$$
 
-### 분산
+**분산** <br/>
 
 $${ V[X] = {\alpha \over \lambda^2} }$$
 
@@ -328,14 +328,14 @@ $${f(x)=
 
 $${ B(\alpha, \beta) = {\Gamma(\alpha) \Gamma(\beta) \over \Gamma(\alpha + \beta)} = \int_0^1 x^{\alpha-1} (1-x)^{\beta-1} }$$
 
-### 파라미터
+**파라미터** <br/>
 - $\alpha$, $\beta$
 
-### 기댓값
+**기댓값** <br/>
 
 $${ E[X] = {\alpha \over \alpha + \beta} }$$
 
-### 분산
+**분산** <br/>
 
 $${ V[X] = {\alpha \beta \over (\alpha + \beta)^2 (\alpha + \beta + 1)} }$$
 
