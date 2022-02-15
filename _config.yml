@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Study Note"
+title                    : "Takyoung Kim"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Takyoung Kim"
@@ -274,7 +274,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false ##
       read_time: true
       comments: # true
       share: true

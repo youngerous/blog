@@ -8,6 +8,7 @@ tags:
 toc: true
 toc_sticky: true
 use_math: true
+author_profile: false
 ---
 
 # Overview
@@ -316,7 +317,7 @@ $X_1, \cdots, X_\alpha \sim_{iid} Exponential(\lambda) $ 일 경우, $X_1, \cdot
 <img src="/note/assets/figures/beta.png" width="80%">
 
 
-비율을 설명할 때 사용하는 확률분포이다.
+비율을 설명할 때 사용하는 확률분포이다. 베이지안 추정 관점에서 표현하면 베르누이분포의 발생 확률에 대한 분포를 나타내는 분포(distribution over distributions)이다. 이를 다항분포로 확장하면 디리클레분포가 된다.
 
 $${f(x)=
 \begin{cases}
