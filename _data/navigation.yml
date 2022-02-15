@@ -1,6 +1,8 @@
 # main links
 main:
-  - title: "Home"
+  - title: "Homepage"
+    url: https://youngerous.github.io/
+  - title: "Blog"
     url: /
   - title: "Category"
     url: /categories/
